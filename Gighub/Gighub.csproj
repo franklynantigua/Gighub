@@ -213,6 +213,10 @@
     <Compile Include="Migrations\201611182028348_OverrideConvertionForGigsAndGenres.Designer.cs">
       <DependentUpon>201611182028348_OverrideConvertionForGigsAndGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611182036000_PopularGenresTable.cs" />
+    <Compile Include="Migrations\201611182036000_PopularGenresTable.Designer.cs">
+      <DependentUpon>201611182036000_PopularGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -302,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611182028348_OverrideConvertionForGigsAndGenres.resx">
       <DependentUpon>201611182028348_OverrideConvertionForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611182036000_PopularGenresTable.resx">
+      <DependentUpon>201611182036000_PopularGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
